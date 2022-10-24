@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: TestMaterial
-  m_Shader: {fileID: -6465566751694194690, guid: 4a44f5bc67c401045945a25d8f7fdef6,
+  m_Shader: {fileID: -6465566751694194690, guid: a811a4fd5ac80804a912ae11ed3bfab3,
     type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -84,7 +84,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _AlphaClip: 0
-    - _Attenuation: 1.04
+    - _Attenuation: 1
     - _Blend: 0
     - _BumpScale: 1
     - _CastShadows: 1
