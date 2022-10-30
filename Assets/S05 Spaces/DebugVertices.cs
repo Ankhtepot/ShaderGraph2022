@@ -14,6 +14,13 @@ public class DebugVertices : MonoBehaviour {
 			_vertices = _mesh.vertices;
 		}
 		foreach (Vector3 v in _vertices)
-            Handles.Label(transform.position + v, $"v: {v}");
+		{
+			Vector3 position = transform.position;
+			Vector3 viewVertValue = SceneView.GetAllSceneCameras()[0].WorldToViewportPoint(position + v);
+			string vert = $"v: {v}";
+			string worldVert = $" wv: {position + v}";
+			string viewVert = $" vv: {viewVertValue}";
+			Handles.Label(position + v, vert + worldVert + viewVert);
+		}
 	}
 }
