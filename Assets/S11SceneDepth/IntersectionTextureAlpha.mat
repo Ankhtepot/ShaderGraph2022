@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: IntersectionTextureAlpha
-  m_Shader: {fileID: -6465566751694194690, guid: 706c643fc684a34409ab26ab682e84d9,
+  m_Shader: {fileID: -6465566751694194690, guid: 3da6618cb39b9ad4596bfc08793ad8e8,
     type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -40,9 +40,15 @@ Material:
     m_Ints: []
     m_Floats:
     - _BandWidth: 3
+    - _Brightness: 2.3
+    - _FresnelBrightness: 0
+    - _FresnelPower: 0
+    - _Power: 6.01
     - _QueueControl: 0
     - _QueueOffset: 0
-    m_Colors: []
+    m_Colors:
+    - _Color: {r: 1, g: 0, b: 0.8976784, a: 0}
+    - _FresnelColor: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &7912526486991118298
 MonoBehaviour:
